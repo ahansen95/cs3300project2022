@@ -8,9 +8,31 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
+<style>
+.button{
+    display: inline-flex;
+    height: 100px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 75px;
+    font-weight: 50;
+    cursor: pointer;
+}
+</style>
 <body>
-<p> Put your HTML using Bootstrap CSS
-</p>
-
+<button type="button" class="button">
+<span class="button__text"home</span>
+<span class="button__icon">
+<ion-icon name="home-outline"></ion-icon>
+</span>
+</button>
+<p>Home</p>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
