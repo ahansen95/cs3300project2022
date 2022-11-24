@@ -93,7 +93,7 @@ RSpec.configure do |config|
 =end
 end
 
-#require 'simplecov'
+require 'simplecov'
 SimpleCov.start
 
 RSpec.configure do |config|
