@@ -7,15 +7,17 @@
     <title>CS3300 Portfolio Project</title>
 
   </head>
-  
-  <body>
+ 
+
+  <body style="background-color: #CBC3E3">
     <div style="margin: 5% 0 0 10%;">
     <h1>Projects</h1>   
     <h1>CS 3300 Portfolio Project - Fall 2022</h1>
 
       <div style="padding-left: 2rem;">
         <h4 style="color: blue"> [Austin Hansen] </h3>
-        
+   
+
 
         <!--- Explain what the block of code below this line is doing --->
 
@@ -23,9 +25,10 @@
           
           <div> Welcome <%= current_user.email %> </div>
           <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
-        
+          <a href="http://localhost:3000/projects" target="_blank" class="btn btn-primary">Go to portfolio</a>
         <% else %>
           <a href="/users/sign_in"> Sign in</a>
+          <img src="http://www.clker.com/cliparts/d/p/y/e/m/j/sign-in-button-md.png" 
         <% end %>
 
       </div>
